@@ -1,7 +1,7 @@
 # Pennylane-Assessment (a.k.a. Cook-eat)
 ## _The Smartest Recipe Search Engine_
 
-**Live demo**: https://pennylane-recipes-kype.onrender.com
+**Live demo**: https://pennylane-recipes-kype.onrender.com (To enjoy the free hosting, the assessment is on the basic plan, which could explain slow requests, I can test it live on localhost during the interview to show you how efficient it is)
 
 ---
 
