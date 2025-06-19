@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.column {
+  border: 1px solid black;
+  flex-basis: 33.33333%;
+}
