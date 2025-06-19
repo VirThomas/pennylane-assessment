@@ -1,7 +1,7 @@
 # Pennylane-Assessment (a.k.a. Cook-eat)
 ## _The Smartest Recipe Search Engine_
 
-**Live demo**: https://pennylane-assessment.onrender.com/
+**Live demo**: https://pennylane-recipes-kype.onrender.com
 
 ---
 

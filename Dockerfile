@@ -27,7 +27,7 @@ RUN bundle install && \
 
 COPY . .
 
-RUN echo "REACT_APP_ENDPOINT_URL=https://pennylane-assessment.onrender.com/api/v1/search" > pennylane-front/.env.production
+RUN echo "REACT_APP_ENDPOINT_URL=https://pennylane-recipes-kype.onrender.com/api/v1/search" > pennylane-front/.env.production
 
 RUN npm install --prefix pennylane-front && npm run build --prefix pennylane-front
 RUN rm -rf public && mkdir -p public && cp -a pennylane-front/build/. public/
