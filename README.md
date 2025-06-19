@@ -3,6 +3,8 @@
 
 **Live demo**: https://pennylane-recipes-kype.onrender.com (To enjoy the free hosting, the assessment is on the basic plan, which could explain slow requests, I can test it live on localhost during the interview to show you how efficient it is)
 
+ALSO the free instance will spin down with inactivity, which can delay requests by 50 seconds or more, so give it the time to launch :)
+
 ---
 
 ## Features 🚀
