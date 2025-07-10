@@ -43,7 +43,12 @@ function App() {
   };
 
   const handleSubmit = async () => {
-    if (ingredients.length === 0) return;
+    if (ingredients.length === 0) {
+      setRecipes([]);
+      setCurrentPage(1);
+      setPageKey(0);
+      return;
+    }
 
     setLoading(true);
     setError(null);
@@ -79,10 +84,8 @@ function App() {
   };
 
   useEffect(() => {
-    if (ingredients.length > 0) {
-      handleSubmit();
-    }
-    // eslint-disable-next-line
+    handleSubmit();
+
   }, [ingredients]);
 
   const recipesPerPage = 9;
